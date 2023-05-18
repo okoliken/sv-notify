@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9fafe;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+p{
+  margin: 0px;
+}
+
+.nt-op{
+  opacity: 0.5;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.has-nt {
+  background-color: #f6fafd;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.nt-dot{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  transform: translateY(-3px) translateX(3px);
+  background-color: #ff4743;
+  border: 2px solid #d45d5b;
+}
+
+.nt-l5 {
+  margin-left: 20px;
+}
+
+.notify__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.notify__container .drop-shadow {
+  background-color: #fff;
+  width: 100%;
+  max-width: 700px;
+  margin-top: 50px;
+  border-radius: 10px;
+  -webkit-box-shadow: 9px -3px 68px -39px rgba(0,0,0,0.14);
+  -moz-box-shadow: 9px -3px 68px -39px rgba(0,0,0,0.14);
+  box-shadow: 9px -3px 68px -39px rgba(0,0,0,0.14);
+  
+
+}
+
+.notify__container .drop-shadow header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 26px;
+}
+.notify__container .drop-shadow header button{
+
+  background-color: transparent;
+  border: none;
+  color: #87868c;
+  font-weight: 400;
+  cursor: pointer;
+
+}
+
+
+.notify__container .drop-shadow .count_con {
+  display: flex;
+  align-items: center;
+}
+
+.notify__container .drop-shadow h3 {
+  color: #181d23;
+  font-weight: 800px;
+  font-size: 22px;
+}
+
+.notification__entry .notification {
+  padding: 10px 15px;
+  margin-bottom: 10px;
+}
+
+.notification__entry .notification .nt-flex {
+  display: flex;
+  padding: 15px;
+}
+
+.notify__container .drop-shadow span.notification_count {
+  display: block;
+  background-color: #07317a;
+  height: 22px;
+  width: 22px;
+  border-radius: 5px;
+  margin-left: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.notification__entry {
+  padding: 20px;
+}
+
+.notification__entry .notification .svelte-lazy-loader {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.notification .comments {
+  border: 1px solid #e5e8e8;
+  color: #818489;
+  font-weight: 500;
+  padding: 8px;
+  border-radius: 8px;
+  transform: translateY(10px);
+  line-height: 22px;
+  cursor: pointer;
+}
+
+.notification .nt-date{
+  color: #9da1af;
+}
+
+
+.notification .photo_comment .svelte-lazy-loader{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 8px;
+}
